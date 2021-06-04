@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/links-uteis",
+      "handler": "links-uteis.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/links-uteis/count",
+      "handler": "links-uteis.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/links-uteis/:id",
+      "handler": "links-uteis.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/links-uteis",
+      "handler": "links-uteis.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/links-uteis/:id",
+      "handler": "links-uteis.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/links-uteis/:id",
+      "handler": "links-uteis.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
